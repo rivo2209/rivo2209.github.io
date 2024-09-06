@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Banco Estado</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia de Dinero</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Sucursales</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <h1>Transferencia de 1 Millón de Pesos</h1>
+    <form action="procesar_transferencia.php" method="post">
+        <label for="remitente">Remitente:</label>
+        <input type="text" id="remitente" name="remitente" value="Raúl Veloso" readonly><br><br>
 
-  <main>
-    <section class="hero">
-      <h1>Bienvenido al Banco Estado</h1>
-      <p>Ofrecemos una amplia gama de productos y servicios financieros para satisfacer tus necesidades.</p>
-      <a href="#" class="btn">Conoce más</a>
-    </section>
+        <label for="destinatario">Destinatario:</label>
+        <input type="text" id="destinatario" name="destinatario" value="Raúl Veloso" readonly><br><br>
 
-    <section class="features">
-      <div
+        <label for="monto">Monto a Transferir:</label>
+        <input type="text" id="monto" name="monto" value="1000000" readonly><br><br>
 
-```
+        <input type="submit" value="Realizar Transferencia">
+    </form>
+</body>
+</html>
