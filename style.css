@@ -3,6 +3,7 @@
   height: 200px;
   position: relative;
   perspective: 1500px;
+  display: flex;
   justify-content: center;
 }
 
