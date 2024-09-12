@@ -1,50 +1,42 @@
-#card {
-  width: 300px;
-  height: 200px;
-  position: relative;
-  perspective: 1500px;
-  display: flex;
-  justify-content: center;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0e68c;
+    font-family: 'Arial', sans-serif;
 }
 
-#card-front {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #ff0080;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
-  justify-content: center;
+.tarjeta {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
 }
 
-#card-inside {
-  background-color: #ff0090;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-origin: left center;
-  transition: transform 1s;
+h1 {
+    color: #ff6347;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-#card:hover #card-front {
-  transform: rotateY(-20deg);
+p {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
 }
 
-.message {
-  padding: 20px;
-  text-align: center;
+.deseos {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4caf50;
 }
 
-#card-front {
-  background-image: url('cumpleanos.jpg');
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.front-text {
-  background-color: rgba(255,255,255,0.7);
-  padding: 10px;
-  border-radius: 5px;
+.firma {
+    margin-top: 30px;
+    font-style: italic;
 }
