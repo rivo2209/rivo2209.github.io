@@ -5,7 +5,7 @@
   perspective: 1500px;
 }
 
-#card-inside,
+#card-inside
 #card-front {
   position: absolute;
   width: 100%;
