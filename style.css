@@ -1,0 +1,51 @@
+```css
+#card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  perspective: 1500px;
+}
+
+#card-inside,
+#card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+#card-inside {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: left center;
+  transition: transform 1s;
+}
+
+#card:hover #card-inside {
+  transform: rotateY(-20deg);
+}
+
+.message {
+  padding: 20px;
+  text-align: center;
+}
+
+#card-front {
+  background-image: url('cumpleanos.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-text {
+  background-color: rgba(255,255,255,0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+```
