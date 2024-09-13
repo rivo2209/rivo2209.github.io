@@ -8,13 +8,29 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.card {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bbb36e;
+    font-family: 'Arial', sans-serif;
+}
+
+.front-text {
     background-color: #000000;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
     text-align: center;
     width: 300px;
+}
+
+h1 {
+    color: #ec38b0;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 h2 {
