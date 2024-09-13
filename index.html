@@ -10,8 +10,9 @@
 <body>
     <div id="card-front" class="front-text">
           <h1>¡Feliz Cumpleaños!</h1>
+          <button id="mostrarMensaje">haz click</button>
     </div>
-    <div id="card-inside" class="inside-text">
+    <div id="mensaje" class="inside-text" style="display: none;">
         <h2>¡Feliz Cumpleaños!</h2>
         <img src="https://healthycakes.es/Productos/Leo%201.jpg" alt="Feliz Cumpleaños" width="200" height="200">
         <p>Que este día esté lleno de alegría, amor y sorpresas.</p>
@@ -24,5 +25,12 @@
             <p>Raul Veloso <3</p>
         </div>
     </div>
+
+    <script>
+        document.getElementById('mostrarMensaje').onclick = function() {
+            document.getElementById('mensaje').style.display = 'block';
+        };
+    </script>
+
 </body>
 </html>
