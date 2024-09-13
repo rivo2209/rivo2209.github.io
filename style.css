@@ -59,7 +59,7 @@ p {
 button {
     background-color: #ff69b4;
     color: white;
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
 }
