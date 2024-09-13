@@ -18,7 +18,7 @@
 }
 
 .inside-text {
-    background-color: #f53ba8;
+    background-color: #000000;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    color: #000000;
+    color: #e40f84;
     font-size: 24px;
     margin-bottom: 10px;
 }
